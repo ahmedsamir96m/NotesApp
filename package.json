@@ -1,0 +1,23 @@
+{
+  "name": "NotesApp",
+  "version": "1.0.0",
+  "description": "Taking Notes application based on vanila javascript",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedsamir96m/NotesApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedsamir96m/NotesApp/issues"
+  },
+  "homepage": "https://ahmedsamir96m.github.io/NotesApp",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
