@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,700,700i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+input[type='text'], select, textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+button {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #0e76a8;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2684af;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 50px;
+    width: 600px;
+    min-height: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.notes-header {
+    font-size: 50px;
+    color: #222;
+    border-bottom: 3px solid #333;
+}
+
+.footer .developed {
+    margin: 60px 0px 15px 0px;
+    color: #35495e;
+}
+
+.social-link li {
+    display: inline;
+    padding: 5px;
+    font-size: 32px;
+}
+
+.social-link li .github {
+    color: #211F1F;
+}
+.social-link li .linkedin {
+    color: #0e76a8 ;
+}
+.social-link li .facebook {
+    color: #3b5998;
+}
+/*Edit Page*/
+#edit-form textarea {
+    width: 400px;
+    height: 150px;
+}
+#edit-form textarea::placeholder {
+    font-size: 16px;
+}
+.new-note-element {
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+}
+.edit-btns {
+    margin-top: 30px;
+}
+.edit-btns #home {
+    color: #fff;
+}
