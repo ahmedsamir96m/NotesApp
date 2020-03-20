@@ -24,6 +24,7 @@ const removeNote = id => {
 // Remove all the Notes from the localStorage and clear the notes list HTML
 const removeNotes = (notes) => {
     window.localStorage.removeItem('notes');
+    saveNotes(notes)
     document.querySelector('#notes').innerHTML = '';
 }
 
