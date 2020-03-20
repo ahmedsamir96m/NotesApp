@@ -16,7 +16,7 @@ document.querySelector('#create-note').addEventListener('click', e => {
     });
     saveNotes(notes);
     // redirect the user to the edit page to create the note that specified to its own ID
-    location.assign(`/editnotes.html#${id}`);
+    location.assign(`/NotesApp/editnotes.html#${id}`);
 });
 // change the searchText value to the input value so the displayed notes get filtered & rendered based on the user input
 document.querySelector('#search-text').addEventListener('input', e => {
