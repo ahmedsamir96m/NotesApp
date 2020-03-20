@@ -47,7 +47,7 @@ const generateNoteElement = (note) => {
         noteText.textContent = 'Untitled Note!'
     }
     // set attributes to the note to redirect the user to the edit page of the specific note based on its #ID
-    noteText.setAttribute('href', `/editnotes.html#${note.id}`);
+    noteText.setAttribute('href', `https://ahmedsamir96m.github.io/NotesApp/editnotes.html#${note.id}`);
     noteText.classList.add('note');
     noteElement.appendChild(noteText);
     noteElement.classList.add('new-note-element');
