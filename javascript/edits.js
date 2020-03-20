@@ -8,7 +8,7 @@ const removeNoteBtn = document.querySelector('#remove-note');
 
 
 if (note === undefined) {
-    location.assign('/index.html');
+    location.assign('https://ahmedsamir96m.github.io/NotesApp/index.html');
 };
 
 noteTitle.value = note.title;
@@ -28,7 +28,7 @@ removeNoteBtn.addEventListener('click', e => {
     e.preventDefault();
     removeNote(note.id);
     saveNotes(notes);
-    location.assign('/index.html')
+    location.assign('https://ahmedsamir96m.github.io/NotesApp/index.html')
 });
 
 // Sync the notes all over the app by getting the latest Data in localStorage
@@ -38,7 +38,7 @@ window.addEventListener('storage', e => {
         note = notes.find(note => note.id === hashID);
 
         if (note === undefined) {
-            location.assign('/index.html');
+            location.assign('https://ahmedsamir96m.github.io/NotesApp/index.html');
         };
 
         noteTitle.value = note.title;
