@@ -36,7 +36,10 @@ window.addEventListener('storage', e => {
 });
 
 document.querySelector('#removeAll').addEventListener('click', e => {
-    removeNotes(notes);
+    if(notes.length < 0) {
+        notes = [];
+        localcStorage.removeItem('notes')
+    }
 });
 
 
