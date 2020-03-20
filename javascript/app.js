@@ -35,9 +35,7 @@ window.addEventListener('storage', e => {
     }
 });
 
-document.querySelector('#removeAll').addEventListener('click', e => {
-    removeNotes(notes);
-})
+document.querySelector('#removeAll').addEventListener('click', removeNotes);
 
 
 
