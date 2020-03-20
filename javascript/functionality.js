@@ -23,7 +23,8 @@ const removeNote = id => {
 
 // Remove all the Notes from the localStorage and clear the notes list HTML
 const removeNotes = () => {
-    notes.splice(0, notes.length);
+    localStorage.removeItem('notes');
+    document.querySelector('#notes').innerHTML = '';
 }
 
 // Generate DOM Structure For A Note
