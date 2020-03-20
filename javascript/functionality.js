@@ -26,7 +26,6 @@ const removeNotes = (notes) => {
     localStorage.removeItem('notes');
     saveNotes(notes);
     renderNotes(notes);
-    document.querySelector('#notes').innerHTML = '';
 }
 
 // Generate DOM Structure For A Note
